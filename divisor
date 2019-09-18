@@ -1,7 +1,11 @@
+#ask for a number
 num = int(input('number: '))
+#create a list with divisors
 div = list(range(2, num+1))
-i = 0
+
 for i in div:
+  #using modular operation to identify divisors
   eva = num%i
   if eva==0:
+    #printing the updated right list of divisors
     print(i)
