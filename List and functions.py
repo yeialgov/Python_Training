@@ -15,12 +15,12 @@ def dup_1(Lista):
         else:
           if i not in Lista_new:
              Lista_new.append(i)      
-    print(Lista_new)
+    return Lista_new
 
 def dup_2(Lista):
     Lista=set(Lista)
     Lista=list(Lista)
-    print(Lista)
+    return Lista
 
 import random
 a=[]
